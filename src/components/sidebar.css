@@ -1,0 +1,79 @@
+nav{
+    background: #15171c;
+    height: 80px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+   
+}
+.nav-button{
+    margin-left: 2rem;
+    font-size: 2rem;
+    height: 80px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+}
+.side-bar{
+    background: #15171c;
+    width: 250px;
+    height: 100vh;
+    display: flex;
+    justify-self:flex-start;
+    position: fixed;
+    top: 0px;
+    left: -250px;
+    transition: 1s;
+}
+.side-bar.active{
+  left: 0px;
+}
+
+.side-icon{
+    color: white;
+    padding: 20px;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.side-bar-wrappter{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.side-bar-items{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  
+}
+.side-item{
+    padding: 20px;
+    margin-bottom: 2px;
+    background-color: white;
+    transition: 0.5s;
+    
+}
+
+.side-item:hover{
+    background-color: red;
+}
+.side-item label{
+    margin-left: 20px;
+}
+
+.dropDown-item{
+    padding: 10px;
+    color: white;
+    
+}
+.dropDown-item:hover{
+   background-color: white;
+   color: black;
+    
+}
+.dropDown-item span{
+    margin-left: 10px;
+}
